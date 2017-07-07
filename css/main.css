@@ -1,0 +1,84 @@
+body, html{
+  margin: 0;
+}
+
+img {
+  width: 100%;
+}
+
+section {
+  height: 100vh;
+}
+
+.intro {
+  background-image: url('../img/leaf2_background.jpg');
+  background-position: center;
+}
+
+.intro_main {
+  text-align: center;
+  vertical-align: middle;
+  height: 70%;
+  color: white;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  margin: auto;
+}
+
+.intro_title {
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+
+.intro_description {
+  font-size: 40px;
+}
+
+.intro_title, .intro_description {
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.intro_links {
+  text-align: center;
+  height: 50%;
+  margin-top: 80px;
+}
+
+.intro_link {
+  color: white;
+  margin: 0 30px;
+}
+
+.bio {
+  background-color: black;
+  display: inline-block;
+}
+
+.bio_portrait {
+  width: 60%;
+  margin: 40px auto;
+}
+
+.bio_img {
+  border-radius: 50%;
+}
+
+.bio_main {
+  margin: 0 40px;
+}
+
+.bio_title {
+  font-size: 40px;
+}
+
+.bio_description {
+  font-size: 20px;
+}
+
+.bio_title, .bio_description {
+  color: white;
+}
