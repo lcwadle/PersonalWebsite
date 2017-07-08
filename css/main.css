@@ -1,5 +1,6 @@
 body, html{
   margin: 0;
+  font-family: 'Rubik', sans-serif;
 }
 
 img {
@@ -10,57 +11,66 @@ section {
   height: 100vh;
 }
 
+header, nav, footer, section, article, div {
+  box-sizing: border-box;
+}
+
 .intro {
   background-image: url('../img/leaf2_background.jpg');
   background-position: center;
+  text-align: center;
 }
 
 .intro_main {
   text-align: center;
   vertical-align: middle;
-  height: 70%;
+  height: 90%;
   color: white;
-  position: absolute;
-  top:0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-
   margin: auto;
+  padding-top: 20%;
 }
 
 .intro_title {
   font-size: 60px;
-  margin-bottom: 10px;
+  margin: 0 0 10px 0;
 }
 
 .intro_description {
   font-size: 40px;
 }
 
-.intro_title, .intro_description {
+.intro_title, .intro_description, .intro_link {
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .intro_links {
-  text-align: center;
-  height: 50%;
   margin-top: 80px;
 }
 
 .intro_link {
-  color: white;
   margin: 0 30px;
+  color: white;
+}
+
+.nav {
+  width: 100%;
+  height: 10%;
+  vertical-align: bottom;
+  text-align: center;
+}
+
+.nav_link {
+  color: white;
 }
 
 .bio {
   background-color: black;
-  display: inline-block;
 }
 
 .bio_portrait {
   width: 60%;
-  margin: 40px auto;
+  margin: 0 auto;
+  padding-top: 20px;
 }
 
 .bio_img {
@@ -68,7 +78,7 @@ section {
 }
 
 .bio_main {
-  margin: 0 40px;
+  margin: 0 20px;
 }
 
 .bio_title {
@@ -81,4 +91,55 @@ section {
 
 .bio_title, .bio_description {
   color: white;
+}
+
+.passions {
+  background-color: blue;
+  color: white;
+}
+
+.passions_title {
+  padding: 20px 20px;
+  margin: 0;
+}
+
+.passions_object {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.passions_object_title {
+  padding-left: 15px;
+  font-weight: bold;
+  vertical-align: text-bottom;
+}
+
+.passions_icon {
+  width: 10%;
+  height: 100%;
+}
+
+.skills {
+  background-color: black;
+  color: white;
+}
+
+.skills_title {
+  padding: 20px 20px;
+  margin: 0;
+}
+
+.skills_frontend {
+  width: 100%;
+}
+
+.skill {
+  width: 25%;
+}
+
+.skill_img {
+}
+
+.skill_text {
+  top: 0
 }
