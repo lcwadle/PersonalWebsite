@@ -129,17 +129,28 @@ header, nav, footer, section, article, div {
   margin: 0;
 }
 
-.skills_frontend {
-  width: 100%;
+.skills_row {
+  margin: 0 20px;
+  display: inline-block;
 }
 
 .skill {
-  width: 25%;
+  position: relative;
+  display: inline-block;
+  margin: 5px;
+  width: calc(33% - 12px);
 }
 
 .skill_img {
 }
 
 .skill_text {
-  top: 0
+  position: absolute;
+  top: 50%;
+  text-align: center;
+  width: 100%;
+  transform: translateY(-50%);
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
 }
