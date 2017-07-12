@@ -7,10 +7,6 @@ img {
   width: 100%;
 }
 
-section {
-  height: 100vh;
-}
-
 header, nav, footer, section, article, div {
   box-sizing: border-box;
 }
@@ -19,6 +15,7 @@ header, nav, footer, section, article, div {
   background-image: url('../img/leaf2_background.jpg');
   background-position: center;
   text-align: center;
+  height: 100vh;
 }
 
 .intro_main {
@@ -67,20 +64,22 @@ header, nav, footer, section, article, div {
 
 .bio_main {
   height: 90%;
+  padding-top: 5%;
 }
 
 .bio_portrait {
-  width: 60%;
   margin: 0 auto;
-  padding-top: 20px;
 }
 
 .bio_img {
   border-radius: 50%;
+  width: 60%;
+  transform: translateX(20%);
+
 }
 
-.bio_main {
-  margin: 0 20px;
+.bio_info {
+  padding: 0 50px;
 }
 
 .bio_title {
