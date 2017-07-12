@@ -33,13 +33,11 @@ header, nav, footer, section, article, div {
 .intro_title {
   font-size: 60px;
   margin: 0 0 10px 0;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
 
 .intro_description {
-  font-size: 40px;
-}
-
-.intro_title, .intro_description, .intro_link {
+  font-size: 30px;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
@@ -48,8 +46,8 @@ header, nav, footer, section, article, div {
 }
 
 .intro_link {
-  margin: 0 30px;
-  color: white;
+  margin: 0 25px;
+  border: 1px solid black;
 }
 
 .nav {
@@ -60,11 +58,15 @@ header, nav, footer, section, article, div {
 }
 
 .nav_link {
-  color: white;
+  border: 1px solid black;
 }
 
 .bio {
   background-color: black;
+}
+
+.bio_main {
+  height: 90%;
 }
 
 .bio_portrait {
@@ -86,6 +88,7 @@ header, nav, footer, section, article, div {
 }
 
 .bio_description {
+  margin-top: 20px;
   font-size: 20px;
 }
 
@@ -94,8 +97,13 @@ header, nav, footer, section, article, div {
 }
 
 .passions {
-  background-color: blue;
+  background-image: url('../img/passions_background.jpg');
+  background-position: center;
   color: white;
+}
+
+.passions_main {
+  height: 90%;
 }
 
 .passions_title {
@@ -124,6 +132,10 @@ header, nav, footer, section, article, div {
   color: white;
 }
 
+.skills_main {
+  height: 90%;
+}
+
 .skills_title {
   padding: 20px 20px;
   margin: 0;
@@ -144,6 +156,10 @@ header, nav, footer, section, article, div {
 .skill_img {
 }
 
+.skill_row_title {
+  margin-top: 20px;
+}
+
 .skill_text {
   position: absolute;
   top: 50%;
@@ -153,4 +169,10 @@ header, nav, footer, section, article, div {
   color: white;
   font-weight: bold;
   font-size: 12px;
+}
+
+.experience {
+  background-image: url('../img/experience_background.jpg');
+  background-position: center;
+  color: white;
 }
