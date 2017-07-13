@@ -64,22 +64,19 @@ header, nav, footer, section, article, div {
 
 .bio_main {
   height: 90%;
-  padding-top: 5%;
 }
 
 .bio_portrait {
   margin: 0 auto;
+  padding: 5%;
 }
 
 .bio_img {
   border-radius: 50%;
-  width: 60%;
-  transform: translateX(20%);
-
 }
 
 .bio_info {
-  padding: 0 50px;
+  padding: 5%;
 }
 
 .bio_title {
