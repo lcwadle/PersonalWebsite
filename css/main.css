@@ -62,10 +62,6 @@ header, nav, footer, section, article, div {
   background-color: black;
 }
 
-.bio_main {
-  height: 90%;
-}
-
 .bio_portrait {
   margin: 0 auto;
   padding: 5%;
@@ -99,23 +95,24 @@ header, nav, footer, section, article, div {
 }
 
 .passions_main {
-  height: 90%;
-}
-
-.passions_title {
-  padding: 20px 20px;
-  margin: 0;
+  padding: 5%;
 }
 
 .passions_object {
   display: inline-block;
-  padding: 0 20px;
+  padding: 5%;
 }
 
 .passions_object_title {
-  padding-left: 15px;
+  padding-left: 30px;
   font-weight: bold;
   vertical-align: text-bottom;
+  font-size: 20px;
+}
+
+.passions_object_description {
+  font-size: 18px;
+  padding-top: 20px;
 }
 
 .passions_icon {
