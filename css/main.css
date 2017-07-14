@@ -105,6 +105,10 @@ header, nav, footer, section, article, div {
   padding: 5%;
 }
 
+.object .skill {
+  padding: 0 5%;
+}
+
 .passions_object_title {
   padding-left: 30px;
   font-weight: bold;
@@ -138,9 +142,10 @@ header, nav, footer, section, article, div {
 }
 
 .skill {
-  position: relative;
   display: inline-block;
   margin: 5px;
+  text-align: center;
+  padding: 0;
 }
 
 .skill_img {
@@ -150,9 +155,14 @@ header, nav, footer, section, article, div {
   margin-top: 20px;
 }
 
-.skill_text {
+.skill_icon {
   color: white;
   font-size: 60px;
+}
+
+.skill_text {
+  color: white;
+  font-size: 15px;
 }
 
 .experience {
