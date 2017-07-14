@@ -76,7 +76,8 @@ header, nav, footer, section, article, div {
 }
 
 .bio_title {
-  font-size: 40px;
+  font-size: 50px;
+  padding-bottom: 20px;
 }
 
 .bio_description {
@@ -94,11 +95,12 @@ header, nav, footer, section, article, div {
   color: white;
 }
 
-.passions_main {
+.main {
   padding: 5%;
+  height: 100%;
 }
 
-.passions_object {
+.object {
   display: inline-block;
   padding: 5%;
 }
@@ -125,11 +127,7 @@ header, nav, footer, section, article, div {
   color: white;
 }
 
-.skills_main {
-  height: 90%;
-}
-
-.skills_title {
+.main_title {
   padding: 20px 20px;
   margin: 0;
 }
@@ -143,7 +141,6 @@ header, nav, footer, section, article, div {
   position: relative;
   display: inline-block;
   margin: 5px;
-  width: calc(33% - 12px);
 }
 
 .skill_img {
@@ -154,14 +151,8 @@ header, nav, footer, section, article, div {
 }
 
 .skill_text {
-  position: absolute;
-  top: 50%;
-  text-align: center;
-  width: 100%;
-  transform: translateY(-50%);
   color: white;
-  font-weight: bold;
-  font-size: 12px;
+  font-size: 60px;
 }
 
 .experience {

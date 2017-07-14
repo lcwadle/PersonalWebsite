@@ -17,6 +17,9 @@
     <!-- Rubik Font -->
     <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
 
+    <!-- Devicons -->
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+
     <!-- Main CSS -->
     <link rel="stylesheet" href="css/main.css" hreflang="en-us">
   </head>
@@ -40,7 +43,7 @@
           <img class="bio_img" src="img/portrait_placeholder.jpg" alt="LC Wadle">
         </div>
         <div class="bio_info col-xs-12 col-md-6">
-          <h2 class="bio_title">Hello!  My name is LC.
+          <h2 class="bio_title">Hello!  My name is LC.</h2>
           <p class="bio_description">
             I am an experienced full-stack software developer who is passionate
             about connecting business and users through software.
@@ -65,9 +68,9 @@
       </div>
     </section>
     <section class="passions" id="passions">
-      <div class="passions_main">
-        <h2 class="passions_title">What I Do</h2>
-        <div class="passions_object col-xs-12 col-md-6">
+      <div class="main">
+        <h2 class="main_title">What I Do</h2>
+        <div class="object col-xs-12 col-md-6">
           <img class="passions_icon" src="img/frontend_icon.png" alt="FrontEnd Icon">
           <span class="passions_object_title">FRONTEND DEVELOPMENT</span>
           <p class="passions_object_description">
@@ -75,7 +78,7 @@
             are both intuitive and aesthetically pleasing.
           </p>
         </div>
-        <div class="passions_object col-xs-12 col-md-6">
+        <div class="object col-xs-12 col-md-6">
           <img class="passions_icon" src="img/backend_icon.png" alt="BackEnd Icon">
           <span class="passions_object_title">BACKEND DEVELOPMENT</span>
           <p class="passions_object_description">
@@ -83,9 +86,17 @@
             are both intuitive and aesthetically pleasing.
           </p>
         </div>
-        <div class="passions_object col-xs-12 col-md-6">
+        <div class="object col-xs-12 col-md-6">
           <img class="passions_icon" src="img/backend_icon.png" alt="BackEnd Icon">
-          <span class="passions_object_title">FRONTEND DEVELOPER</span>
+          <span class="passions_object_title">TESTING</span>
+          <p class="passions_object_description">
+            Using CSS, HTML, and JavaScript I build responsive websites and applications that
+            are both intuitive and aesthetically pleasing.
+          </p>
+        </div>
+        <div class="object col-xs-12 col-md-6">
+          <img class="passions_icon" src="img/backend_icon.png" alt="BackEnd Icon">
+          <span class="passions_object_title">TESTING</span>
           <p class="passions_object_description">
             Using CSS, HTML, and JavaScript I build responsive websites and applications that
             are both intuitive and aesthetically pleasing.
@@ -96,56 +107,64 @@
       </div>
     </section>
     <section class="skills" id="skills">
-      <div class="skills_main">
-        <h2 class="skills_title">Skills</h2>
-        <div class="skills_row">
+      <div class="main">
+        <h2 class="main_title">Skills</h2>
+        <div class="object col-xs-12 col-md-6">
           <p class="skill_row_title">Frontend:</p>
-          <div class="skill">
-            <div class="skill_text">HTML5</div>
-            <img class="skill_img" src="img/circle.png">
+          <div class="skill col-xs-3">
+            <i class="devicon-html5-plain skill_text"></i>
           </div>
-          <div class="skill">
-            <div class="skill_text">CSS3</div>
-            <img class="skill_img" src="img/circle.png">
+          <div class="skill col-xs-3">
+            <i class="devicon-css3-plain skill_text"></i>
           </div>
-          <div class="skill">
-            <div class="skill_text">JavaScript</div>
-            <img class="skill_img" src="img/circle.png">
+          <div class="skill col-xs-3">
+            <i class="devicon-javascript-plain skill_text"></i>
+          </div>
+          <div class="skill col-xs-3">
+            <i class="devicon-angularjs-plain skill_text"></i>
+          </div>
+          <div class="skill col-xs-3">
+            <i class="devicon-sass-original skill_text"></i>
+          </div>
+          <div class="skill col-xs-3">
+            <i class="devicon-react-original skill_text"></i>
           </div>
         </div>
-        <div class="skills_row">
+        <div class="object col-xs-12 col-md-6">
           <p class="skill_row_title">Backend:</p>
-          <div class="skill">
-            <div class="skill_text">Java</div>
-            <img class="skill_img" src="img/circle.png">
+          <div class="skill col-xs-3">
+            <i class="devicon-java-plain skill_text"></i>
           </div>
-          <div class="skill">
-            <div class="skill_text">Python</div>
-            <img class="skill_img" src="img/circle.png">
+          <div class="skill col-xs-3">
+            <i class="devicon-csharp-plain skill_text"></i>
           </div>
-          <div class="skill">
-            <div class="skill_text">C#</div>
-            <img class="skill_img" src="img/circle.png">
+          <div class="skill col-xs-3">
+            <i class="devicon-python-plain skill_text"></i>
+          </div>
+          <div class="skill col-xs-3">
+            <i class="devicon-nodejs-plain skill_text"></i>
           </div>
         </div>
-        <div class="skills_row">
+        <div class="object col-xs-12 col-md-6">
           <p class="skill_row_title">Databases:</p>
-          <div class="skill">
-            <div class="skill_text">AngularJS</div>
-            <img class="skill_img" src="img/circle.png">
+          <div class="skill col-xs-3">
+            <i class="devicon-mysql-plain skill_text"></i>
           </div>
-          <div class="skill">
-            <div class="skill_text">Node.js</div>
-            <img class="skill_img" src="img/circle.png">
+          <div class="skill col-xs-3">
+            <i class="devicon-mongodb-plain skill_text"></i>
           </div>
-          <div class="skill">
-            <div class="skill_text">React</div>
-            <img class="skill_img" src="img/circle.png">
+        </div>
+        <div class="object col-xs-12 col-md-6">
+          <p class="skill_row_title">Tools:</p>
+          <div class="skill col-xs-3">
+            <i class="devicon-git-plain skill_text"></i>
+          </div>
+          <div class="skill col-xs-3">
+            <i class="devicon-amazonwebservices-original skill_text"></i>
           </div>
         </div>
       </div>
       <div class="nav">
-        <a href="#experience" class="nav_link btn btn-primary">NEXT</a>
       </div>
     </section>
     <section class="experience">
