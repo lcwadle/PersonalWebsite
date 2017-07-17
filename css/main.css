@@ -11,13 +11,9 @@ header, nav, footer, section, article, div {
   box-sizing: border-box;
 }
 
-.object {
-  display: inline-block;
-  padding: 0 5%;
-}
-
-.object .skill {
-  padding: 0 5%;
+.main_title {
+  padding: 5%;
+  margin: 0;
 }
 
 /* intro section */
@@ -109,8 +105,16 @@ header, nav, footer, section, article, div {
 .passions_main {
   background-image: url('../img/passions_background.jpg');
   background-position: center;
-  text-align: center;
   color: white;
+}
+
+.object {
+  display: inline-block;
+  padding: 0 5% 5% 5%;
+}
+
+.object .skill {
+  padding: 0 5%;
 }
 
 .passions_object_title {
@@ -130,14 +134,10 @@ header, nav, footer, section, article, div {
   height: 100%;
 }
 
+/* skills section */
 .skills {
   background-color: black;
   color: white;
-}
-
-.main_title {
-  padding: 20px 20px;
-  margin: 0;
 }
 
 .skills_row {
@@ -156,6 +156,7 @@ header, nav, footer, section, article, div {
 
 .skill_row_title {
   margin-top: 20px;
+  font-size: 20px;
 }
 
 .skill_icon {
