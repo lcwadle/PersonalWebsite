@@ -170,6 +170,10 @@ header, nav, footer, section, article, div {
 }
 
 .experience {
+
+}
+
+.experience_main {
   background-image: url('../img/experience_background.jpg');
   background-position: center;
   color: white;
