@@ -11,6 +11,16 @@ header, nav, footer, section, article, div {
   box-sizing: border-box;
 }
 
+.object {
+  display: inline-block;
+  padding: 0 5%;
+}
+
+.object .skill {
+  padding: 0 5%;
+}
+
+/* intro section */
 .intro {
   background-image: url('../img/leaf2_background.jpg');
   background-position: center;
@@ -58,8 +68,14 @@ header, nav, footer, section, article, div {
   border: 1px solid black;
 }
 
+/* bio section */
 .bio {
+
+}
+
+.bio_main {
   background-color: black;
+  color: white;
 }
 
 .bio_portrait {
@@ -85,28 +101,16 @@ header, nav, footer, section, article, div {
   font-size: 20px;
 }
 
-.bio_title, .bio_description {
-  color: white;
+/* passions section */
+.passions {
+
 }
 
-.passions {
+.passions_main {
   background-image: url('../img/passions_background.jpg');
   background-position: center;
+  text-align: center;
   color: white;
-}
-
-.main {
-  padding: 5%;
-  height: 100%;
-}
-
-.object {
-  display: inline-block;
-  padding: 5%;
-}
-
-.object .skill {
-  padding: 0 5%;
 }
 
 .passions_object_title {
@@ -142,10 +146,9 @@ header, nav, footer, section, article, div {
 }
 
 .skill {
-  display: inline-block;
-  margin: 5px;
   text-align: center;
-  padding: 0;
+  padding: 15px;
+  margin: 20px 0;
 }
 
 .skill_img {
@@ -157,7 +160,7 @@ header, nav, footer, section, article, div {
 
 .skill_icon {
   color: white;
-  font-size: 60px;
+  font-size: 80px;
 }
 
 .skill_text {
