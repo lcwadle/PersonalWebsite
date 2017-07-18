@@ -160,10 +160,11 @@ header, nav, footer, section, article, div {
 
 .education h3 {
   text-align: center;
+  padding: 20px;
 }
 
 .school_outer {
-  padding: 5%;
+  padding: 0 5%;
 }
 
 .school_inner {
