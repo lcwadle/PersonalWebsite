@@ -11,9 +11,25 @@ header, nav, footer, section, article, div {
   box-sizing: border-box;
 }
 
-.main_title {
+.section_title {
   padding: 5%;
-  margin: 0;
+}
+
+.section_main {
+  padding: 5%;
+  color: white;
+  background-position: center;
+}
+
+.nav {
+  width: 100%;
+  vertical-align: bottom;
+  text-align: center;
+}
+
+.nav a, .intro_links a {
+  border: 1px solid black;
+  margin: 0 25px;
 }
 
 /* intro section */
@@ -24,7 +40,7 @@ header, nav, footer, section, article, div {
   height: 100vh;
 }
 
-.intro_main {
+.intro .section_main {
   text-align: center;
   vertical-align: middle;
   height: 90%;
@@ -33,13 +49,13 @@ header, nav, footer, section, article, div {
   padding-top: 20%;
 }
 
-.intro_title {
+.intro h1 {
   font-size: 60px;
   margin: 0 0 10px 0;
   text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
 
-.intro_description {
+.intro h3 {
   font-size: 30px;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
@@ -48,90 +64,63 @@ header, nav, footer, section, article, div {
   margin-top: 80px;
 }
 
-.intro_link {
-  margin: 0 25px;
-  border: 1px solid black;
-}
-
-.nav {
-  width: 100%;
+.intro .nav {
   height: 10%;
-  vertical-align: bottom;
-  text-align: center;
-}
-
-.nav_link {
-  border: 1px solid black;
 }
 
 /* bio section */
-.bio {
-
-}
-
-.bio_main {
+.bio .section_main {
   background-color: black;
-  color: white;
 }
 
 .bio_portrait {
   margin: 0 auto;
-  padding: 5%;
+  padding: 5% 10%;
 }
 
-.bio_img {
+.bio_portrait img {
   border-radius: 50%;
 }
 
 .bio_info {
-  padding: 5%;
+  padding: 0 5%;
 }
 
-.bio_title {
+.bio_info h2 {
   font-size: 50px;
   padding-bottom: 20px;
 }
 
-.bio_description {
+.bio_info p {
   margin-top: 20px;
   font-size: 20px;
 }
 
 /* passions section */
-.passions {
-
-}
-
-.passions_main {
+.passions .section_main {
   background-image: url('../img/passions_background.jpg');
-  background-position: center;
-  color: white;
 }
 
-.object {
+.passion {
   display: inline-block;
   padding: 0 5% 5% 5%;
 }
 
-.object .skill {
-  padding: 0 5%;
-}
-
-.passions_object_title {
+.passion span {
   padding-left: 30px;
   font-weight: bold;
   vertical-align: text-bottom;
   font-size: 20px;
 }
 
-.passions_object_description {
-  font-size: 18px;
-  padding-top: 20px;
-}
-
-.passions_icon {
+.passion img {
   width: 10%;
   height: 100%;
+}
+
+.passion p {
+  font-size: 18px;
+  padding-top: 20px;
 }
 
 /* skills section */
@@ -169,6 +158,11 @@ header, nav, footer, section, article, div {
   font-size: 15px;
 }
 
+/* education section */
+.education {
+
+}
+
 .experience {
 
 }
@@ -185,4 +179,10 @@ header, nav, footer, section, article, div {
 
 .class {
   padding: 5% 5% 0 5%;
+}
+
+.mooc_inner {
+  margin: 5%;
+  border: 2px solid black;
+  background-color: darkslategrey;
 }
