@@ -178,3 +178,11 @@ header, nav, footer, section, article, div {
   background-position: center;
   color: white;
 }
+
+.experience_object {
+  text-align: center;
+}
+
+.class {
+  padding: 5% 5% 0 5%;
+}
