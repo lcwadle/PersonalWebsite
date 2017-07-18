@@ -12,7 +12,7 @@ header, nav, footer, section, article, div {
 }
 
 .section_title {
-  padding: 5%;
+
 }
 
 .section_main {
@@ -103,7 +103,7 @@ header, nav, footer, section, article, div {
 
 .passion {
   display: inline-block;
-  padding: 0 5% 5% 5%;
+  padding: 5%;
 }
 
 .passion span {
@@ -124,14 +124,18 @@ header, nav, footer, section, article, div {
 }
 
 /* skills section */
-.skills {
+.skills .section_main {
   background-color: black;
-  color: white;
 }
 
-.skills_row {
+.skills_list {
   margin: 0 20px;
   display: inline-block;
+}
+
+.skill_list p {
+  margin-top: 20px;
+  font-size: 20px;
 }
 
 .skill {
@@ -140,49 +144,56 @@ header, nav, footer, section, article, div {
   margin: 20px 0;
 }
 
-.skill_img {
+.skill p {
+  font-size: 15px;
 }
 
-.skill_row_title {
-  margin-top: 20px;
-  font-size: 20px;
-}
-
-.skill_icon {
+.skill i {
   color: white;
   font-size: 80px;
 }
 
-.skill_text {
-  color: white;
-  font-size: 15px;
-}
-
 /* education section */
-.education {
-
-}
-
-.experience {
-
-}
-
-.experience_main {
+.education .section_main {
   background-image: url('../img/experience_background.jpg');
-  background-position: center;
-  color: white;
 }
 
-.experience_object {
+.education h3 {
+  text-align: center;
+}
+
+.school_outer {
+  padding: 5%;
+}
+
+.school_inner {
+  background-color: darkslategrey;
+  border: 2px solid black;
+  padding: 10px;
+}
+
+.school_inner h2 {
+  text-align: center;
+}
+
+.school_inner h4 {
   text-align: center;
 }
 
 .class {
-  padding: 5% 5% 0 5%;
+  margin: 2% 0;
+  height: 40px;
+}
+
+.mooc_outer {
+  padding: 20px;
 }
 
 .mooc_inner {
-  margin: 5%;
   border: 2px solid black;
   background-color: darkslategrey;
+}
+
+.mooc_inner h4 {
+  text-align: center;
 }
