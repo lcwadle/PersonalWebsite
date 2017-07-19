@@ -164,21 +164,13 @@ header, nav, footer, section, article, div {
 }
 
 .school_outer {
-  padding: 0 5%;
+  padding: 0 20px;
 }
 
 .school_inner {
   background-color: darkslategrey;
   border: 2px solid black;
-  padding: 10px;
-}
-
-.school_inner h2 {
-  text-align: center;
-}
-
-.school_inner h4 {
-  text-align: center;
+  padding: 10px 40px;
 }
 
 .class {
@@ -197,4 +189,31 @@ header, nav, footer, section, article, div {
 
 .mooc_inner h4 {
   text-align: center;
+}
+
+/* experience section */
+.experience .section_main {
+  background-color: black;
+}
+
+.job {
+
+}
+
+.job_outer {
+  padding: 30px;
+}
+
+.job_inner {
+  border: 1px solid white;
+  text-align: center;
+  padding: 30px;
+}
+
+.job ul {
+  padding: 30px;
+}
+
+.job li {
+  padding: 5px 0;
 }
